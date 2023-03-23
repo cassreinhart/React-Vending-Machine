@@ -14,7 +14,7 @@ const VendingMachine = () => {
             <h1>HELLO I AM A VENDING MACHINE. WHAT WOULD YOU LIKE TO EAT?</h1>
         </div>
         <NavBar 
-          className='container NavBar'/>
+          className='container'/>
     </div>
   )
 }
