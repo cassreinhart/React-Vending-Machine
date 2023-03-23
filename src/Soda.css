@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    padding: 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    z-index: 99;
+}
+
+.Soda {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.Soda img {
+    height: 50vh;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}

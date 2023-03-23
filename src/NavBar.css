@@ -1,0 +1,17 @@
+.container {
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    padding: 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.NavBar {
+    display: flex;
+    flex-direction: column;
+}
+
+.NavBar a {
+    font-size: 2rem;
+}
